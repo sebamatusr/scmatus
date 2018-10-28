@@ -58,6 +58,29 @@ section:last-child {
   font-size: 18px;
 }
 
+/* PDF Icon */
+
+.ribbon {
+  position: absolute;
+  right: 14rem;
+  top: 2.3em;
+}
+
+.ribbon-item {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #323232;
+  color: #F2F2F2;
+  width: 4em;
+  height: 6em;
+}
+
+.ribbon-item span {
+  position: absolute;
+  top: 4em;
+}
+
 /***********************************
 * =Main Info
 ***********************************/
